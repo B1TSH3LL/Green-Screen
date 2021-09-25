@@ -191,3 +191,49 @@ p {
   font-size: 32px;
   font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .fa-angle-double-down {
+    position: absolute;
+    top: 580px;
+  }
+
+  .fa-angle-double-up {
+    position: absolute;
+    top: 950px;
+  }
+
+  #loader {
+    margin-bottom: 160px;
+  }
+
+  #container {
+    height: 1000px;
+  } 
+
+  canvas {
+    border: 2px solid rebeccapurple;
+    background-color: rgb(67, 147, 201);
+    height: 200px;
+    width: 90%;
+  }
+
+  input {
+    font-size: 12pt;
+    position: relative;
+    left: 42px;
+}
+
+.grn-btn {
+  position: relative;
+  left: 5px;
+}
+.clr-btn {
+  position: relative;
+  left: 1px;
+}
+}
