@@ -1,7 +1,8 @@
 canvas {
   border: 2px solid rebeccapurple;
   background-color: rgb(67, 147, 201);
-  height: 200px;
+  height: 300px;
+  width: 600px;
 }
 
 input {
@@ -19,8 +20,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   box-sizing: border-box;
   background-color: #060606;
 }
@@ -57,12 +58,12 @@ body {
 }
 
 .img {
-    height: 77px;
-    width: 77px;
+    height: 160px;
+    width: 150px;
     position: absolute;
     z-index: 1;
-    left: 35px;
-    top: 33px;
+    left: 50px;
+    top: 40px;
     animation: none;
 }
 
@@ -123,30 +124,42 @@ h3 {
   color: white;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 #container {
-  margin-top: 100px;
+  margin-bottom: 100px;
   position: relative;
+  height: 750px;
   background-color: #03a9f4;
   top: 500px;
   text-align: center;
 }
 
+.grn-btn {
+  font-size: 22px;
+}
+.clr-btn {
+  font-size: 22px;
+}
 .grn-btn:hover {
   background-color: rgb(9, 236, 9);
   color: #fff;
+  font-size: 24px;
 }
 
 .clr-btn:hover {
   background-color: #03a9f4;
   color: #fff;
-
+  font-size: 24px;
 }
 
 .fa-angle-double-down {
   color: white;
   font-size: 30px;
   position: absolute;
-  top: 420px;
+  top: 660px;
   left: 20px;
 }
 
@@ -160,7 +173,7 @@ h3 {
   color: white;
   font-size: 30px;
   position: absolute;
-  top: 420px;
+  top: 680px;
   left: 20px;
 }
 
@@ -171,5 +184,10 @@ h3 {
 }
 
 #loader {
-  margin-bottom: -100px;
+  margin-bottom: 227px;
+}
+
+p {
+  font-size: 32px;
+  font-weight: bold;
 }
