@@ -212,7 +212,8 @@ p {
   }
 
   #container {
-    height: 2000px;
+    position: relative;
+    top: 1000px;
   } 
 
   canvas {
