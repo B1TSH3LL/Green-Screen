@@ -195,9 +195,10 @@ p {
 
 @media screen and (max-width: 768px) {
   body {
+    display: none;
     overflow-x: hidden;
   }
-  .fa-angle-double-down {
+  /* .fa-angle-double-down {
     position: absolute;
     top: 580px;
   }
@@ -236,5 +237,5 @@ p {
 .clr-btn {
   position: relative;
   left: 1px;
-}
+} */
 }
