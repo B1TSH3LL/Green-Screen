@@ -193,7 +193,7 @@ p {
 }
 
 
-@media (min-width: 224px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
@@ -212,8 +212,6 @@ p {
   }
 
   #container {
-    position: relative;
-    top: 1000px;
     height: 1000px;
   } 
 
