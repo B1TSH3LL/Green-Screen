@@ -58,13 +58,13 @@ body {
 }
 
 .img {
-    height: 160px;
-    width: 150px;
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    top: 40px;
-    animation: none;
+  height: 160px;
+  width: 150px;
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 40px;
+  animation: none;
 }
 
 .loader .face .circle {
@@ -108,16 +108,15 @@ body {
 }
 
 @keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .float {
   background-color: black;
-  
 }
 
 h3 {
@@ -192,12 +191,8 @@ p {
   font-weight: bold;
 }
 
-
 @media screen and (max-width: 768px) {
-/*   body {
-    display: none;
-  } */
- .fa-angle-double-down {
+  .fa-angle-double-down {
     position: absolute;
     top: 580px;
   }
@@ -214,7 +209,8 @@ p {
   #container {
     position: relative;
     top: 1000px;
-  } 
+    height: 1000px;
+  }
 
   canvas {
     border: 2px solid rebeccapurple;
@@ -227,14 +223,14 @@ p {
     font-size: 12pt;
     position: relative;
     left: 42px;
-}
+  }
 
-.grn-btn {
-  position: relative;
-  left: 5px;
-}
-.clr-btn {
-  position: relative;
-  left: 1px;
-} 
+  .grn-btn {
+    position: relative;
+    left: 5px;
+  }
+  .clr-btn {
+    position: relative;
+    left: 1px;
+  }
 }
